@@ -51,7 +51,7 @@ main {
     text-align:left;   
 }
 
-.current-read-grid {
+.current-book-card {
     display: grid;
     grid-template-columns: auto auto auto;
     /* grid-template-rows: auto auto; */
@@ -65,7 +65,7 @@ main {
     border-width: thin;
 }
 
-.next-read-grid {
+.book-card {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
