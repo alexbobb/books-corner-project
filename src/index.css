@@ -28,8 +28,8 @@ nav {
     justify-content: space-between;
     color: inherit;
     text-decoration: none;
-
 }
+
 
 nav a {
     color: inherit;
@@ -67,7 +67,7 @@ main {
 
 .book-card {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 100px auto 140px;
     grid-template-rows: auto auto;
     gap: 1rem;
     align-items: start;  
@@ -79,12 +79,18 @@ main {
     border-width: thin
     }
 
+#book-description {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 img {
    max-width: auto;
    height: 120px;
 }
 
-main h2 {
+h2 {
     text-decoration: none;
     color: inherit;
 }
